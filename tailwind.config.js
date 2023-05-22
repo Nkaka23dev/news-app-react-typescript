@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Poppins', 'system-ui']
+      }
     },
     screens: {
       xl: { max: "1279px" },
