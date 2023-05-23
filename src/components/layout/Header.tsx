@@ -17,7 +17,7 @@ export default function Header() {
           <p className="text-gray-200 text-xs">Whereas disregard and contempt for human rights have resulted</p>
         </div>
         <div className="hidden md:block">
-          <FiMenu className="text-white text-xl"/>
+          <FiMenu className="text-white text-xl" />
         </div>
         <div className="flex items-center gap-2">
           <FaFacebookF className="text-white" />

@@ -1,5 +1,7 @@
 import Ad from './components/Ad'
-import Hero from './components/hero/Hero'
+import Latest from './components/Latest'
+import Technology from './components/Technology'
+import Hero from './components/hero'
 import Header from './components/layout/Header'
 import Nav from './components/layout/Nav'
 import Travel from './components/travel/Travel'
@@ -12,6 +14,10 @@ function App() {
       <Ad />
       <Hero />
       <Travel />
+      <Ad />
+      <Technology />
+      <Ad />
+      <Latest/>
     </>
   )
 }
