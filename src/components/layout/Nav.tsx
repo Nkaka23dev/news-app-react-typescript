@@ -11,7 +11,7 @@ export default function Nav() {
                     <div className="flex items-center gap-5 lg:hidden">
                         {["Politics", "world", "Media", "Entertainment", "Sports"].map((cat, index) => {
                             return (
-                                <div key={index} className='cursor-pointer hover:text-red-500 text-gray-500 flex items-center'>
+                                <div key={index} className='cursor-pointer hover:text-red-500 text-gray-800 flex items-center'>
                                     <p className='text-sm uppercase '>{cat}</p>
                                     <IoIosArrowDown className="font-semibold text-lg" />
                                 </div>
